@@ -393,38 +393,6 @@ header .container {
 }
 
 /* Image Overlay for Hero Section */
-.image-overlay {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(255, 255, 255, 0.9);
-    padding: 10px 20px;
-    border-radius: 25px;
-    backdrop-filter: blur(10px);
-    box-shadow: var(--shadow);
-}
-
-[data-theme="dark"] .image-overlay {
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-}
-
-.status-indicator {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.9rem;
-    font-weight: 500;
-}
-
-.status-dot {
-    width: 8px;
-    height: 8px;
-    background-color: #27ae60;
-    border-radius: 50%;
-    animation: pulse 2s infinite;
-}
 
 @keyframes pulse {
     0% { opacity: 1; }
